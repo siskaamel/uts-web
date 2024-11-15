@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #4E0707;
+            background-color: #f4f4f9;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        #hero {
+            background-color: #4E0707;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        #hero .hero-content h1 {
+            font-size: 2.5rem;
+        }
+
+        #about-me, #projects, #contact-me {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            font-size: 2rem;
+        }
+
+        .project-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .project-item {
+            background: #f1f1f1;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .project-item h3 {
+            font-size: 1.5rem;
+            color: #4E0707;
+        }
+
+        .project-item p, #contact-me p {
+            margin: 5px 0;
+        }
+
+        /* Contact Links Styling */
+        #contact-me a {
+            color: #4E0707;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Hai, Saya Siska Amelia</h1>
+            <p>Mahasiswa</p>
+        </div>
+    </section>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>Hai! Saya Siska Amelia </p>
+        <p>Saya adalah seorang mahasiswa semester 3 D4 Teknik Informatika di Politeknik Harapan Bersama Tegal</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>Menguasai Wordpress</li>
+            <li>Menguasai Canva</li>
+            <li>Menguasai Figma</li>
+            <li>Menguasai Odoo</li>
+        </ul>
+        <h3>Experience</h3>
+        <p>Prakerin sebagai Tenaga Teknis Kefarmasian di Apotek KIA Farma</p>
+        <h3>Goals</h3>
+        <p>Menguasai bahasa pemrograman python</p>
+        <h3>Pelatihan</h3>
+        <ul>
+            <li>Mengikuti Workshop Mobile Development</li>
+            <li>Mengikuti Kursus Huawei Matriks Dasar</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <h3>e-commerce toko Bu Lekha</h3>
+                <p>Project e-commerce dibuat untuk pelaku Usaha Mikro, Kecil dan Menengah (UMKM) menggunakan CMS Odoo</p>
+                <img src="interface toko bu lekha.jpg" style="width: 100%; max-height: 250px; object-fit: contain;">
+                
+            </div>
+            <div class="project-item">
+                <h3>Weblog mengenai Machine Learning</h3>
+                <p>Project membuat weblog dengan menggunakan CMS Wordpress</p>
+                <a href="https://siskaameliatipoltektegal.wordpress.com/" target="_blank">View Project</a>
+            </div>
+            <div class="project-item">
+                <h3>Implementasi Design Thinking</h3>
+                <p>Melakukan modifikasi terhadap aplikasi fizzo untuk mendapatkan bahan berikut dari aplikasi tersebut : User Persona, Pain Points, How-Might-We, Solutions, Flowchart
+                    </p>
+                <a href="https://www.figma.com/board/017s26NJB1Uxche5XSmwlf/UTS-IMK-Aplikasi-Fizzo-Siska-Amelia?node-id=0-1&node-type=canvas" target="_blank">View Project</a>
+            </div>
+            <div class="project-item">
+                <h3>Prototype dan UX Writing </h3>
+                <p>Project membuat prototype dan ux writing fitur daftar pembaca pada aplikasi fizzo</p>
+                <a href="https://www.figma.com/design/ZsLEkoPVxJA9qY1g2hc6Fw/UAS-Fizzo?node-id=0-1&node-type=canvas" target="_blank">Prototype</a>
+                <a href="https://www.notion.so/Dokumentasi-UX-Writing-Fizzo-61f0cf514ace4486bf419f937013e2e3" target="_blank">UX Writing</a>
+            </div>
+             
+        </div>
+    </section>
+
+    <section id="contact-me">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="siskamel207@gmail.com">siskamel207@gmail.com</a></p>
+        <p>Instagram: <a href=https://www.instagram.com/wehsiska_/ target="_blank">wehsiska_</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/siska-amelia-004a4a294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">Siska Amelia</a></p>
+        <p>GitHub: <a href="https://github.com/siskaamel" target="_blank">siskaamel</a></p>
+    </section>
+
+</body>
+</html>
